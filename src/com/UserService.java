@@ -1,5 +1,11 @@
+package com;
+
 public class UserService {
     public String getUserDetails() {
-        return "User from main branch - updated differently!";
+        return "Merged version: User from both branches";
+    }
+
+    public boolean isUserActive(String userId) {
+        return true;
     }
 }
