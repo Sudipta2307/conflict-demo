@@ -2,7 +2,7 @@ package com;
 
 public class UserService {
     public String getUserDetails() {
-        return "User from feature branch";
+        return "Merged version: User from both branches";
     }
 
     public boolean isUserActive(String userId) {
